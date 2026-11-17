@@ -223,6 +223,9 @@ if (require.main === module) {
   fs.copyFileSync(path.join(content, 'fonts', 'Vazirmatn-OFL.txt'), path.join(site, 'fonts', 'Vazirmatn-OFL.txt'));
   fs.cpSync(path.join(content, 'assets'), path.join(site, 'assets'), { recursive: true });
   fs.copyFileSync(path.join(content, 'uninstall.html'), path.join(site, 'uninstall.html'));
+  for (const name of fs.readdirSync(content).filter(name => /^google[a-z0-9]+\.html$/.test(name))) {
+    fs.copyFileSync(path.join(content, name), path.join(site, name));
+  }
   console.log(`Generated ${locales.length} localized pages, shared assets, privacy policy, sitemap and robots.txt in dist/.`);
 }
 

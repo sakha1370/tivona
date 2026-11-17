@@ -37,5 +37,6 @@ for (const file of [
 ]) assert.ok(fs.existsSync(path.join(dist, file)), file);
 assert.match(fs.readFileSync(path.join(dist, 'privacy.html'), 'utf8'), /canonical/);
 assert.match(fs.readFileSync(path.join(dist, 'uninstall.html'), 'utf8'), /name="robots" content="noindex"/);
+assert.ok(fs.readdirSync(dist).some(name => /^google[a-z0-9]+\.html$/.test(name)), 'Search Console verification file is deployed');
 assert.doesNotMatch(sitemap, /github\.io\/dial/);
 console.log(`Validated ${locales.length} localized pages, reciprocal SEO metadata, sitemap, robots.txt, policy and site assets.`);

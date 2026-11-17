@@ -16,6 +16,8 @@ English (`/`), Persian (`/fa/`), Spanish (`/es/`), Brazilian Portuguese (`/pt-br
 
 The site generator emits self-referencing canonical URLs, reciprocal `hreflang` links including `x-default`, Open Graph and Schema.org URLs, `sitemap.xml`, and `robots.txt` from the configured website base URL in `scripts/site.cjs`.
 
+Keep the Google Search Console HTML verification file in `content/`; the build copies it to the website root so ownership can be rechecked later.
+
 ## Local preview
 
 Run `npm run build` and serve the generated `dist/` directory with any static HTTP server. Do not open the HTML files directly from the filesystem: relative asset paths and language links should be checked over HTTP.
