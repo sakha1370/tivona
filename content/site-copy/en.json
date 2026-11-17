@@ -1,0 +1,51 @@
+{
+  "title": "Tivona – Chrome New Tab Dashboard & Daily Planner",
+  "description": "Plan your day in every Chrome new tab. Tivona brings together website shortcuts, a to-do list, a calendar with Persian dates, and a Pomodoro timer.",
+  "shareDescription": "Open a Chrome tab to find your site shortcuts, today’s tasks, calendar, and Pomodoro timer.",
+  "skip": "Skip to main content",
+  "navigation": "Site navigation",
+  "language": "Language",
+  "featuresLink": "Features",
+  "helpLink": "Help",
+  "headline": "Tivona, a new tab dashboard for Chrome",
+  "intro": "Open a tab to reach your favorite websites, see what’s due today, and start a focus session. Tivona puts your shortcuts, to-do list, and calendar on the same page.",
+  "install": "Add Tivona to Chrome",
+  "installNote": "Free for desktop Chrome. Tivona replaces your new tab page and works without a Tivona account.",
+  "dashboard": {
+    "alt": "Tivona’s Chrome dashboard with shortcut tiles and folders, a monthly calendar, a to-do list, and a weather forecast",
+    "caption": "Example dashboard with the optional course tracker enabled."
+  },
+  "featuresTitle": "Shortcuts and tools for planning your day",
+  "features": [
+    ["Website shortcuts and folders", "Use Speed Dial to pin your most visited sites, group them into folders, and find them with the keyboard. You can also import a folder from Chrome Bookmarks."],
+    ["To-do list and daily planning", "Add tasks with due dates, priorities, notes, and checklist steps. See what’s due today or overdue, and pick a day on the calendar to see the tasks scheduled for it."],
+    ["Persian, Gregorian, and Hijri calendars", "Use the calendar widget to switch between Shamsi (Jalali), Gregorian, and Hijri dates. Show more than one calendar together and see Iranian holidays in the Shamsi view."],
+    ["Pomodoro timer and focus time", "Set your own focus and break lengths or use the stopwatch. Start a focus session from a task and record the time you spent on it."]
+  ],
+  "calendars": {
+    "alt": "A selected day in Tivona’s calendar showing its Gregorian, Shamsi, and Hijri dates and an option to add a task",
+    "caption": "Select a day to see its dates across calendars and add a task for that day."
+  },
+  "more": "Choose which widgets to show. You can check the weather, count down to a date, track habits or goals, follow course progress, or keep a journal.",
+  "startTitle": "Get started with your first tab",
+  "steps": [
+    "Install Tivona from the Chrome Web Store and open a new tab.",
+    "Add a favorite website to Speed Dial or add a task with a due date.",
+    "Choose your language, calendar, and visible widgets in Settings."
+  ],
+  "faqTitle": "Frequently asked questions",
+  "faq": [
+    ["Can I bring over my Chrome bookmarks?", "In Speed Dial, choose Import from Chrome Bookmarks. Tivona asks for permission and copies the folder you select."],
+    ["What if I already use a new tab extension?", "Chrome lets one extension control the new tab page at a time. You can manage which extensions are enabled from Chrome’s Extensions page."],
+    ["How do I move my tasks to another computer?", "In Settings → Data, export a backup and restore that file in Tivona on the other computer. Your tasks are part of the backup."]
+  ],
+  "privacyTitle": "Offline use and privacy",
+  "offline": "The core tools, including your calendar, tasks, journal, and timer, work offline. Opening websites and fetching weather or online shortcut icons use an internet connection.",
+  "privacy": "Your tasks, journal, and focus history are stored on this device. Some settings and shortcuts can use Chrome Sync if you have it enabled. Builds configured for PostHog offer optional usage sharing that starts off.",
+  "policy": "Privacy policy",
+  "helpTitle": "Help and feedback",
+  "help": "To recover data after an update, open Settings → Data → Automatic backups. If you need help, email {email} or use the support section on the {store}.",
+  "emailLink": "Tivona support",
+  "storeLink": "Chrome Web Store listing",
+  "credits": "Screenshots use sample data. Website names and icons belong to their owners."
+}

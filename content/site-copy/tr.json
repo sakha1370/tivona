@@ -1,0 +1,51 @@
+{
+  "title": "Tivona | Chrome için görev listeli ve takvimli yeni sekme",
+  "description": "Chrome’un yeni sekmesinde sık kullandığınız sitelere ulaşın, yapılacaklar listenizi takvimde görün ve Pomodoro zamanlayıcısıyla işe başlayın.",
+  "shareDescription": "Yeni sekmede sitelerinize ulaşın, bugünün işlerine bakın ve bir odak oturumu başlatın.",
+  "skip": "Ana içeriğe geç",
+  "navigation": "Site gezinme menüsü",
+  "language": "Dil",
+  "featuresLink": "Özellikler",
+  "helpLink": "Yardım",
+  "headline": "Chrome’un yeni sekmesinde kısayollar, görevler ve takvim",
+  "intro": "Tivona ile sık açtığınız siteleri ve bugünün yapılacaklarını aynı sekmede görün. Bir teslim tarihi yaklaşıyorsa takvimden günü seçip görevinizi ekleyin. Çalışmaya hazır olduğunuzda zamanlayıcıyı o görevden başlatabilirsiniz.",
+  "install": "Tivona’yı Chrome’a ekle",
+  "installNote": "Bilgisayarda Chrome için ücretsizdir. Tivona yeni sekme sayfasının yerini alır ve Tivona hesabı gerektirmez.",
+  "dashboard": {
+    "alt": "Tivona’nın Türkçe panosunda site kısayolları, aylık takvim, yapılacaklar listesi ve hava durumu",
+    "caption": "Örnek yeni sekmede öğrenme klasörü ve isteğe bağlı kurs takibi açık."
+  },
+  "featuresTitle": "Sitelerinizi düzenleyin ve gününüzü planlayın",
+  "features": [
+    ["Hızlı erişim ve yer işareti klasörleri", "Sık kullandığınız siteleri iş, okul veya kişisel kullanım için klasörlere ayırın. Klavyeyle kısayol arayabilir, Chrome yer işaretlerinden bir klasörü içe aktarabilirsiniz."],
+    ["Yapılacaklar listesi ve teslim tarihleri", "Göreve teslim tarihi, öncelik, not ve alt adımlar ekleyin. Bugün yapılacakları ve gecikenleri görün. Takvimden bir gün seçerek o güne planlanan işlere ulaşın."],
+    ["Miladi, İran ve hicri takvimler", "Aylık takvimde miladi, İran güneş takvimi (Celâlî) ve hicri takvim arasında geçiş yapın. Tarihleri yan yana gösterebilirsiniz. İran takvimi görünümünde İran’daki tatil günleri gösterilir."],
+    ["Pomodoro zamanlayıcısı ve odak süresi", "Çalışma ve mola sürelerini ayarlayın veya kronometreyi kullanın. Görevin ayrıntılarından zamanlayıcıyı açıp harcadığınız süreyi kaydedin."]
+  ],
+  "calendars": {
+    "alt": "Tivona takviminde seçilen gün, farklı takvimlerdeki karşılıkları ve planlanan bir görev",
+    "caption": "Bir günü seçerek etkin takvimlerdeki tarihlerini ve o güne ait görevleri görün."
+  },
+  "more": "Panoda hangi araçların görüneceğini siz seçin. Hava durumuna bakabilir, geri sayım ekleyebilir, alışkanlıkları, hedefleri ve kurs ilerlemesini takip edebilir ya da günlük tutabilirsiniz.",
+  "startTitle": "İlk yeni sekmenizi hazırlayın",
+  "steps": [
+    "Tivona’yı Chrome Web Mağazası’ndan yükleyin ve yeni bir sekme açın.",
+    "Sık kullandığınız bir siteyi ekleyin veya bir göreve teslim tarihi verin.",
+    "Ayarlardan dili, takvimi ve panoda görmek istediğiniz araçları seçin."
+  ],
+  "faqTitle": "Sık sorulan sorular",
+  "faq": [
+    ["Chrome yer işaretlerimi aktarabilir miyim?", "Hızlı erişimde Chrome yer işaretlerinden içe aktarma seçeneğini açın. Tivona izin ister ve seçtiğiniz klasörü kopyalar."],
+    ["Başka bir yeni sekme eklentisi kullanıyorsam ne olur?", "Chrome yeni sekme sayfasının yönetimini aynı anda tek bir eklentiye verir. Chrome’un Uzantılar sayfasından hangi eklentilerin etkin kalacağını seçebilirsiniz."],
+    ["Görevlerimi başka bir bilgisayara nasıl taşırım?", "Ayarlar → Veri bölümünden yedek alın ve bu dosyayı diğer bilgisayardaki Tivona’da geri yükleyin. Görevleriniz yedeğe dahildir."]
+  ],
+  "privacyTitle": "Çevrimdışı kullanım ve gizlilik",
+  "offline": "Takvim, görevler, günlük ve zamanlayıcı çevrimdışı çalışır. Siteleri açmak, hava durumunu veya çevrimiçi simgeleri almak için bağlantı gerekir.",
+  "privacy": "Görevleriniz, günlüğünüz ve odak geçmişiniz bu cihazda saklanır. Chrome senkronizasyonu açıksa bazı ayarlar ve kısayollar eşitlenebilir. PostHog için yapılandırılan sürümlerde kullanım verilerini paylaşmak isteğe bağlıdır ve bu seçenek başlangıçta kapalıdır.",
+  "policy": "Gizlilik politikası (İngilizce)",
+  "helpTitle": "Yardım ve geri bildirim",
+  "help": "Güncelleme sonrasında verileri geri yüklemek için Ayarlar → Veri → Otomatik yedekler bölümünü açın. Yardım için {email} e-posta gönderebilir veya {store} destek bölümünü kullanabilirsiniz.",
+  "emailLink": "Tivona desteğine",
+  "storeLink": "Chrome Web Mağazası’ndaki Tivona sayfasının",
+  "credits": "Ekran görüntülerinde örnek veriler kullanılmıştır. Site adları ve simgeleri kendi sahiplerine aittir."
+}

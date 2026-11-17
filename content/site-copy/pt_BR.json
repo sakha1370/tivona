@@ -1,0 +1,51 @@
+{
+  "title": "Tivona | Nova guia do Chrome com tarefas e calendário",
+  "description": "Deixe seus atalhos, a lista de tarefas do dia, o calendário e o timer Pomodoro na nova guia do Chrome. Organize seus favoritos em pastas com o Tivona.",
+  "shareDescription": "Planeje o dia na nova guia do Chrome com favoritos organizados, tarefas com prazo e um timer de foco.",
+  "skip": "Ir para o conteúdo principal",
+  "navigation": "Navegação do site",
+  "language": "Idioma",
+  "featuresLink": "Recursos",
+  "helpLink": "Ajuda",
+  "headline": "Sua nova guia do Chrome com atalhos e tarefas",
+  "intro": "Abra uma nova guia para acessar os sites que você mais usa e conferir o que precisa fazer hoje. No Tivona, você pode escolher uma data no calendário, incluir uma tarefa e iniciar o timer quando for a hora de trabalhar nela.",
+  "install": "Adicionar Tivona ao Chrome",
+  "installNote": "Grátis para o Chrome no computador. O Tivona substitui a página de nova guia e funciona sem uma conta do Tivona.",
+  "dashboard": {
+    "alt": "Painel do Tivona em português com atalhos para sites, calendário mensal, lista de tarefas e previsão do tempo",
+    "caption": "Exemplo de nova guia com uma pasta de estudos e o acompanhamento de cursos ativado."
+  },
+  "featuresTitle": "Tenha seus favoritos e o plano do dia à mão",
+  "features": [
+    ["Atalhos para sites e pastas de favoritos", "Separe os sites de estudo, trabalho ou lazer em pastas. Use o teclado para encontrar um atalho ou importe uma pasta dos favoritos do Chrome."],
+    ["Lista de tarefas com prazo e prioridade", "Registre o prazo, a prioridade, anotações e etapas de cada tarefa. Veja o que vence hoje e o que está atrasado, ou escolha uma data no calendário para consultar as tarefas daquele dia."],
+    ["Calendários gregoriano, persa e islâmico", "Consulte datas no calendário mensal. Você pode usar o gregoriano, o persa (jalali) e o islâmico (hijri) e exibir mais de um na mesma visualização. A visualização persa mostra feriados do Irã."],
+    ["Timer Pomodoro e registro do tempo de foco", "Defina a duração do foco e das pausas ou use o cronômetro. Abra uma tarefa para iniciar o timer e registrar quanto tempo você dedicou a ela."]
+  ],
+  "calendars": {
+    "alt": "Dia selecionado no calendário do Tivona com datas em calendários diferentes e uma tarefa agendada",
+    "caption": "Selecione uma data para ver as tarefas do dia e as datas correspondentes nos calendários ativos."
+  },
+  "more": "Escolha quais widgets aparecem no painel. Você pode consultar a previsão do tempo, criar contagens regressivas, acompanhar hábitos, metas e cursos ou escrever no diário.",
+  "startTitle": "Configure sua primeira guia",
+  "steps": [
+    "Instale o Tivona pela Chrome Web Store e abra uma nova guia.",
+    "Adicione um site aos atalhos ou defina um prazo para uma tarefa.",
+    "Nas configurações, escolha o idioma, o calendário e os widgets que deseja mostrar."
+  ],
+  "faqTitle": "Perguntas frequentes",
+  "faq": [
+    ["Posso importar os favoritos do Chrome?", "No painel de acesso rápido, escolha a opção de importar dos favoritos do Chrome. O Tivona pede permissão e copia a pasta que você selecionar."],
+    ["Já uso uma extensão de nova guia. O que acontece?", "O Chrome permite que uma extensão controle a nova guia por vez. Na página de extensões do Chrome, você pode escolher quais ficam ativadas."],
+    ["Como levo minhas tarefas para outro computador?", "Em Configurações → Dados, exporte um backup e restaure esse arquivo no Tivona do outro computador. O backup inclui sua lista de tarefas."]
+  ],
+  "privacyTitle": "Uso off-line e privacidade",
+  "offline": "O calendário, as tarefas, o diário e o timer funcionam off-line. A abertura de sites e a obtenção de previsões ou ícones on-line exigem conexão.",
+  "privacy": "Suas tarefas, seu diário e seu histórico de foco ficam neste dispositivo. Alguns atalhos e configurações podem usar a sincronização do Chrome quando ela está ativa. Nas versões configuradas para PostHog, o compartilhamento de dados de uso é opcional e vem desativado.",
+  "policy": "Política de privacidade (em inglês)",
+  "helpTitle": "Ajuda e comentários",
+  "help": "Para recuperar dados após uma atualização, abra Configurações → Dados → Backups automáticos. Se precisar de ajuda, escreva para o {email} ou use a seção de suporte da {store}.",
+  "emailLink": "suporte do Tivona",
+  "storeLink": "página na Chrome Web Store",
+  "credits": "As capturas de tela usam dados de exemplo. Os nomes e ícones dos sites pertencem a seus respectivos titulares."
+}

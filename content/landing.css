@@ -1,0 +1,95 @@
+.landing,
+.site-header,
+.site-footer {
+  box-sizing: border-box;
+  width: min(100%, 868px);
+  max-width: none;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.site-header { padding-block-start: 18px; }
+.site-header nav { position: relative; align-items: center; gap: 8px 20px; }
+.site-header a { display: inline-block; padding-block: 6px; }
+.language-picker summary { padding-block: 6px; cursor: pointer; }
+.language-links {
+  position: absolute;
+  inset-block-start: 100%;
+  inset-inline-end: 0;
+  z-index: 2;
+  box-sizing: border-box;
+  width: min(19rem, 100%);
+  margin: 0;
+  padding: 8px;
+  border: 1px solid light-dark(#a6aec5, #6b7796);
+  border-radius: 12px;
+  background: light-dark(#fff, #1d2436);
+  box-shadow: 0 6px 24px #0002;
+  list-style: none;
+}
+.language-picker[open] .language-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px;
+}
+.language-links a {
+  display: block;
+  padding-inline: 8px;
+  border-radius: 6px;
+  overflow-wrap: anywhere;
+}
+.language-links a[aria-current="page"] { font-weight: 700; }
+
+.landing { margin-block: 0; padding-block: 8px 24px; }
+.site-footer { padding-block: 0 32px; }
+
+.skip-link {
+  position: absolute;
+  inset-block-start: 8px;
+  inset-inline-start: 8px;
+  z-index: 1;
+  padding: 8px 14px;
+  background: light-dark(#f6f8ff, #141825);
+}
+.skip-link:not(:focus) { clip-path: inset(50%); }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+
+.hero h1 { font-size: clamp(1.8rem, 5vw, 2.75rem); margin-block: 20px 12px; }
+.hero > p:first-of-type { font-size: 1.125rem; }
+.hero .muted, .site-footer p { font-size: .94rem; }
+.cta {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: #3153cf;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.cta:hover { background: #2745b6; }
+.cta:focus-visible { outline-color: light-dark(#182139, #e4eaff); }
+
+.preview { margin: 24px 0; }
+.preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px #0002;
+}
+.preview figcaption { margin-block-start: 8px; font-size: .94rem; }
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 24px;
+}
+.features h3 { font-size: 1.05rem; margin-block: 0 4px; }
+.features p { margin: 0; }
+.faq h3 { font-size: 1.05rem; margin-block-end: 4px; }
+.faq p { margin-block-start: 0; }
+.landing ol { padding-inline-start: 24px; }
+
+@media (max-width: 600px) {
+  .features { grid-template-columns: 1fr; }
+}

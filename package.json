@@ -1,0 +1,13 @@
+{
+  "name": "tivona-official-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The multilingual official Tivona website for GitHub Pages.",
+  "scripts": {
+    "build": "node scripts/site.cjs",
+    "check": "node scripts/check-site.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

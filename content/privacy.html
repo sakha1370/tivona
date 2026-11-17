@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tivona — Privacy policy</title><link rel="stylesheet" href="help.css"></head>
+<body><main>
+<nav><a href="newtab.html">Back to Tivona</a><a href="support.html">Help & feedback</a><a href="#fa" lang="fa">فارسی</a></nav>
+<h1>Privacy policy for Tivona</h1>
+<p>Effective November 17, 2026. Applies to Tivona version 1.3.0 and later.</p>
+<p>Tivona (formerly Dial) is a Chrome extension that replaces the new tab page with a personal dashboard. It is published by the developer named on its Chrome Web Store page. This policy explains what information Tivona handles, where it is stored and who receives it.</p>
+
+<h2>Summary</h2>
+<ul>
+<li>Tivona has no user accounts or advertising. Optional usage analytics sharing with PostHog is the only in-extension analytics choice and starts off. It appears only in builds configured for PostHog.</li>
+<li>The extension does not send your shortcuts, to-do list, journal, goals, habits, wishes, financial records, weight entries or city to the developer. You choose what to share if you contact support.</li>
+<li>Tivona uses Open-Meteo for weather and Google’s favicon service to find site icons at a higher resolution. The icon look-up can be turned off.</li>
+</ul>
+
+<h2>1. Information you enter and where it is stored</h2>
+<p>Tivona stores what you enter in Chrome’s extension storage:</p>
+<ul>
+<li><strong>Synced through your Chrome account, when Chrome Sync is on:</strong> shortcuts and folders, settings, your chosen city, countdowns, course progress, weight entries and financial obligations. Google transfers and stores this data as part of Chrome Sync, under Google’s privacy policy and your Chrome settings. If an item is too large for Sync, Tivona keeps it on this device only and tells you.</li>
+<li><strong>Stored only on this device:</strong> your to-do list, journal, goals, habits, wishes (including the photos and videos you attach to them), useful-time history and timer, uploaded wallpaper, caches (weather and icons), automatic backups, and a short list of the days on which Tivona was opened (used only to decide when to show a one-time review request).</li>
+</ul>
+<p><strong>Wishes.</strong> The text, link, cost and a small cover thumbnail of each wish are saved in Chrome’s extension storage and are part of Tivona backups. The photos and videos you attach are saved in this browser’s own database for the extension (IndexedDB), only on this device: they are not included in backups, are not synced, are never uploaded, and are deleted when you delete the wish, reset Tivona or remove the extension. A link on a wish is opened only when you click it.</p>
+<p><strong>Automatic backups.</strong> Before an update of the extension, and before you restore a backup, Tivona keeps a copy of your records in this device’s extension storage (the newest three; the wallpaper image is not included). You can restore the latest copy from Settings → Data. These copies never leave the device. Reset deletes them.</p>
+<p>Tivona does not add its own encryption to this storage or to exported backup files. Anyone with access to your Chrome profile or to an exported backup file may be able to read them. Keep backup files somewhere private.</p>
+
+<h2>2. Services Tivona contacts</h2>
+<ul>
+<li><strong>Open-Meteo (open-meteo.com), for weather.</strong> Open-Meteo may receive a partial city query and your interface language code while you type. The updated autocomplete waits for at least three characters and a short pause before looking up suggestions. You can also submit a query with Search or Enter. Clicking the city suggested from your browser’s time zone sends that city’s name and the language code for lookup. Tivona can reuse recent lookup results from the current tab’s memory for up to five minutes. Forecast requests use the selected city’s coordinates, including for automatic refreshes while Weather is enabled. Turning Weather off in builds with the Search button stops weather requests and keeps your saved city. Open-Meteo also receives normal connection data such as your IP address. Tivona does not access your device’s physical location. Open-Meteo’s own terms and privacy policy apply.</li>
+<li><strong>Google’s favicon service (www.google.com and gstatic.com), for site icons.</strong> Tivona checks Chrome’s icon cache first. When online look-up is enabled, Tivona sends only the shortcut’s domain name, for example example.com, to Google’s favicon service to find an icon or a sharper version. You can turn this off in Settings → Data → “Look up site icons online”. Google’s privacy policy applies.</li>
+<li><strong>Image addresses you choose.</strong> If you set a wallpaper from a web address, Tivona loads the image from that address.</li>
+<li><strong>Websites you open from Tivona</strong> receive the same information as any normal visit.</li>
+<li><strong>Automatic shortcut names.</strong> Tivona takes the title from an open tab whose address matches the shortcut. When you add a shortcut without a name or choose “Reload Icon and Title”, Tivona may open that address briefly in a background tab. The website receives the same information as on a normal visit. The title is saved as part of the shortcut.</li>
+<li><strong>The Chrome Web Store.</strong> If you choose “Write a review” or open the help page’s review link, the store page opens in a new tab.</li>
+<li><strong>An optional uninstall survey.</strong> Chrome opens a feedback page on Tivona’s website when you uninstall. The address includes the extension version and Chrome’s interface language. The website host receives ordinary connection information, such as an IP address. The survey opens an email draft; your answers are sent only if you send that email.</li>
+</ul>
+
+<h2>3. What Tivona does not do</h2>
+<ul>
+<li>Tivona does not sell or transfer user data to anyone, except as described above to provide its features.</li>
+<li>Tivona does not use or transfer data for advertising, profiling, credit-worthiness or lending.</li>
+<li>Tivona does not access Chrome’s history records.</li>
+<li>Tivona does not access your location, and it does not run remote code: all of its program code is included in the extension package.</li>
+</ul>
+
+<h2>4. Permissions</h2>
+<ul>
+<li><strong>storage:</strong> saves your dashboard data.</li>
+<li><strong>favicon:</strong> shows your shortcuts’ icons from Chrome’s own icon cache.</li>
+<li><strong>tabs:</strong> reads tab titles to name shortcuts. The save-page menu and keyboard shortcut use the current page’s address and title to add it directly to Speed Dial.</li>
+<li><strong>contextMenus:</strong> adds “Save page to Tivona” to the browser’s right-click menus on web pages and the Tivona toolbar icon.</li>
+<li><strong>activeTab and scripting:</strong> show a temporary message on the current page after you use the save-page menu or keyboard shortcut. The message uses the save result and does not read page content.</li>
+<li><strong>notifications:</strong> displays the result as a system notification when an in-page message is unavailable. The notification does not include the page title or address.</li>
+<li><strong>bookmarks (optional):</strong> lets Tivona read the Chrome bookmark tree when you choose “Import from Chrome Bookmarks”. Tivona uses it to show available folders and copies the folder you confirm. Tivona does not edit your Chrome bookmarks.</li>
+<li><strong>Access to www.google.com and gstatic.com:</strong> downloads missing or higher-resolution shortcut icons from Google’s favicon service. The look-up can be turned off in Settings.</li>
+</ul>
+
+<h2>5. Your controls</h2>
+<ul>
+<li><strong>Export:</strong> Settings → Data → Export saves a backup file of your Tivona data.</li>
+<li><strong>Restore:</strong> Settings → Data → Restore, or restore the latest automatic backup.</li>
+<li><strong>Delete:</strong> Settings → Data → Reset deletes Tivona’s data, including automatic backups, from this browser and from Chrome Sync. Uninstalling Tivona removes its storage from this browser; to remove synced data everywhere, use Reset before uninstalling.</li>
+<li><strong>Icons:</strong> turn off “Look up site icons online” to stop requests to Google’s favicon service.</li>
+</ul>
+
+<h3 id="posthog">Optional usage analytics</h3>
+<p>In a build configured for PostHog, the first-use setup may show a one-time invitation with “Enable analytics” and “Not now.” This is optional; declining does not limit Tivona. The existing Settings → Data → “Share usage analytics” switch is the only consent state, starts off and remains available afterward so the choice can be changed anytime. When enabled, Tivona sends limited, fixed-category usage events to our project on <a href="https://posthog.com/privacy">PostHog Cloud</a> in its configured US or EU region. These cover dashboard readiness and onboarding, selected successful feature actions (Tasks, Shortcuts, Habits, Goals, Wishes, Focus, Calendar and Courses), widget changes, coarse UTC-day meaningful activity and selected error categories. Events include a random identifier that links activity within that consent period for deduplication and retention calculations; this is pseudonymous, linkable data, not fully anonymous data. A common meaningful-activity event is sent at most once per UTC day.</p>
+<p>Tivona does not send task content, shortcut titles or URLs, browsing history, location, account information, error messages or session recordings to PostHog. The service's network infrastructure can see the connection IP address. Tivona disables GeoIP enrichment and the receiving project is configured to discard client IP data from stored events.</p>
+<p>Only the bounded queue, event summaries needed for deduplication, rate limiting and retention, and the consent-period identifier are stored locally for this feature; there is no separate local usage report. Pending events are kept for up to three days and are excluded from Chrome Sync and backups. Turning sharing off immediately stops new event collection, blocks future sends, aborts an in-flight request where possible, and clears the local queue and identifier. It does not delete events PostHog already received; the project's retention period still applies. To request deletion of previously received data, contact the address below. Tivona may be unable to identify a person's events from a support request because the identifier is not displayed or linked to an account.</p>
+<p>This release requires users with a previous analytics preference to review and explicitly enable the unified setting again. A previous local-only choice is never treated as consent to sharing with PostHog. Chrome Web Store listing analytics are separate and do not receive this in-extension usage data.</p>
+
+<h2>6. Children</h2>
+<p>Tivona is a general-audience tool. PostHog sharing starts off.</p>
+
+<h2>7. Limited Use</h2>
+<p>Tivona’s use of information complies with the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+
+<h2>8. Changes</h2>
+<p>Changes to this policy will be posted here with a new effective date. If Tivona’s data practices change, Tivona will tell you inside the extension before the change takes effect.</p>
+
+<h2>9. Contact</h2>
+<p>Email <a href="mailto:sakha1370@gmail.com">sakha1370@gmail.com</a>, or use the Support tab on Tivona’s Chrome Web Store page.</p>
+
+<section id="fa" lang="fa" dir="rtl">
+<h2>سیاست حریم خصوصی Tivona</h2>
+<p>از ۲۶ آبان ۱۴۰۵ (۱۷ نوامبر ۲۰۲۶)، برای Tivona (با نام قبلی Dial) نسخهٔ ۱٫۳٫۰ و بعد از آن.</p>
+<p>Tivona حساب کاربری و تبلیغ ندارد. در نسخه‌های تنظیم‌شده برای PostHog، هنگام راه‌اندازی اولیه ممکن است دعوت یک‌باره‌ای با دو انتخاب «فعال‌کردن تحلیل‌ها» و «فعلاً نه» نمایش داده شود. این گزینه اختیاری است و ردکردنش هیچ قابلیتی را محدود نمی‌کند. انتخاب از همان گزینهٔ «اشتراک تحلیل‌های استفاده» در تنظیمات › داده‌ها انجام می‌شود؛ پیش‌فرض خاموش است و بعداً هم می‌توانید آن را تغییر دهید.</p>
+<p><strong>تحلیل اختیاری استفاده:</strong> گزینهٔ «اشتراک تحلیل‌های استفاده» در تنظیمات › داده‌ها تنها وضعیت رضایت است. با روشن‌کردن آن، رویدادهای محدود و دسته‌بندی‌شده به پروژهٔ Tivona در PostHog Cloud در منطقهٔ تنظیم‌شدهٔ آمریکا یا اروپا فرستاده می‌شوند. رویدادها شامل آماده‌شدن داشبورد و راه‌اندازی، اقدام‌های موفق منتخب در کارها، میانبرها، عادت‌ها، هدف‌ها، آرزوها، تمرکز، تقویم و دوره‌ها، تغییر ابزارک‌ها، فعالیت روزانهٔ کلی بر پایهٔ UTC و دسته‌های محدودی از خطا هستند. شناسه‌ای تصادفی، رویدادهای هر دورهٔ رضایت را برای حذف تکرار و محاسبهٔ بازگشت به هم پیوند می‌دهد؛ این داده مستعار و پیوندپذیر است و کاملاً ناشناس نیست. رویداد فعالیت معنادار حداکثر روزی یک‌بار فرستاده می‌شود.</p>
+<p>محتوای کارها، عنوان یا نشانی میانبرها، تاریخچهٔ مرور، مکان، اطلاعات حساب، متن خطا یا ضبط نشست به PostHog فرستاده نمی‌شود. زیرساخت شبکهٔ PostHog نشانی IP اتصال را می‌بیند. غنی‌سازی GeoIP غیرفعال است و پروژه طوری تنظیم شده که IP کاربر را از رویدادهای ذخیره‌شده حذف کند.</p>
+<p>فقط صف محدود، خلاصه‌های لازم برای حذف تکرار و محدودیت نرخ و محاسبهٔ بازگشت، و شناسهٔ دورهٔ رضایت برای این قابلیت در حافظهٔ محلی نگهداری می‌شوند؛ گزارش محلی جداگانه‌ای وجود ندارد. رویدادهای در صف حداکثر سه روز نگهداری می‌شوند و همگام یا پشتیبان‌گیری نمی‌شوند. خاموش‌کردن اشتراک فوراً جمع‌آوری رویدادهای جدید را متوقف می‌کند، ارسال‌های بعدی را مسدود می‌کند، در صورت امکان درخواست درحال‌ارسال را لغو می‌کند و صف و شناسهٔ محلی را پاک می‌کند. این کار رویدادهایی را که PostHog قبلاً دریافت کرده حذف نمی‌کند؛ مدت نگهداری پروژه همچنان اعمال می‌شود. برای درخواست حذف دادهٔ قبلی با نشانی پایین صفحه تماس بگیر. چون شناسه در Tivona نمایش داده نمی‌شود و به حسابی پیوند ندارد، ممکن است نتوان رویدادهای یک فرد را از روی درخواست پشتیبانی شناسایی کرد.</p>
+<p>پس از این به‌روزرسانی، کاربران باید متن جدید را ببینند و گزینهٔ یکپارچه را صریحاً روشن کنند. انتخاب قبلیِ آمار محلی هرگز رضایت برای اشتراک با PostHog محسوب نمی‌شود. آمار فهرست Chrome Web Store جداست و این داده‌های درون‌افزونه را دریافت نمی‌کند.</p>
+<p><strong>محل نگهداری:</strong> میانبرها، تنظیمات، شهر انتخابی، شمارش معکوس، دوره‌ها، وزن و تعهدات مالی، اگر Chrome Sync روشن باشد، از طریق حساب Chrome خودت همگام می‌شوند. فهرست کارها، دفترچه، اهداف، عادت‌ها، آرزوها (با عکس‌ها و ویدئوهایشان)، زمان مفید و زمان‌سنج، تصویر پس‌زمینه، حافظهٔ موقت، پشتیبان‌های خودکار و فهرست کوتاه روزهایی که Tivona باز شده (فقط برای تصمیم دربارهٔ نمایش یک‌بارهٔ درخواست نظر) فقط روی همین دستگاه می‌مانند. Tivona پیش از هر به‌روزرسانی یا بازیابی، نسخه‌ای از داده‌ها را روی همین دستگاه نگه می‌دارد (سه نسخهٔ آخر، بدون تصویر پس‌زمینه) که از تنظیمات › داده‌ها قابل بازیابی است و با بازنشانی پاک می‌شود. عکس‌ها و ویدئوهای آرزوها فقط در پایگاه‌دادهٔ خود افزونه روی همین دستگاه می‌مانند: در پشتیبان و همگام‌سازی نیستند، هیچ‌جا بارگذاری نمی‌شوند و با حذف آرزو، بازنشانی یا حذف افزونه پاک می‌شوند. فضای ذخیره‌سازی و فایل پشتیبان رمزگذاری اضافه ندارند.</p>
+<p><strong>آب‌وهوا (Open-Meteo)</strong> هنگام تایپ ممکن است بخشی از عبارت جست‌وجوی شهر و کد زبان رابط به Open-Meteo فرستاده شود. جست‌وجوی خودکار به‌روز‌شده پس از تایپ دست‌کم سه نویسه و یک مکث کوتاه، پیشنهادها را درخواست می‌کند. می‌توانی با دکمهٔ «جست‌وجو» یا کلید Enter هم عبارت را ارسال کنی. کلیک روی شهر پیشنهادی بر اساس منطقهٔ زمانی مرورگر، نام همان شهر و کد زبان رابط را برای جست‌وجو می‌فرستد. Tivona می‌تواند تا پنج دقیقه از نتایج اخیر در حافظهٔ همان تب استفاده کند. مختصات شهر انتخابی برای دریافت پیش‌بینی ارسال می‌شود، از جمله هنگام تازه‌سازی خودکار ویجت فعال. در نسخه‌هایی که دکمهٔ «جست‌وجو» دارند، خاموش کردن ویجت درخواست‌های آب‌وهوا را متوقف می‌کند و شهر ذخیره‌شده باقی می‌ماند. Open-Meteo داده‌های معمول اتصال مانند IP را هم دریافت می‌کند. Tivona به موقعیت فیزیکی دستگاه دسترسی ندارد. شرایط و سیاست حریم خصوصی Open-Meteo در مورد این سرویس اعمال می‌شود.</p>
+<p><strong>دیگر سرویس‌های بیرونی:</strong> Tivona ابتدا کش آیکون Chrome را بررسی می‌کند. اگر دریافت آنلاین آیکون‌ها فعال باشد، برای یافتن آیکون یا نسخهٔ واضح‌تر آن فقط دامنهٔ میانبر به سرویس آیکون گوگل فرستاده می‌شود. می‌توانی این گزینه را در تنظیمات › داده‌ها خاموش کنی. تصویر پس‌زمینه از نشانی وب، از همان نشانی بارگیری می‌شود. هنگام حذف افزونه، Chrome صفحهٔ بازخورد را با نسخهٔ Tivona و زبان رابط Chrome باز می‌کند. میزبان سایت اطلاعات معمول اتصال مانند IP را دریافت می‌کند. پاسخ‌ها فقط در صورت ارسال پیش‌نویس ایمیل از سوی خودت فرستاده می‌شوند.</p>
+<p><strong>نام خودکار میانبر:</strong> Tivona با مجوز <code>tabs</code> عنوان تب بازِ مطابق با نشانی میانبر را می‌خواند. هنگام افزودن میانبر بدون نام یا بازخوانی نماد و عنوان، ممکن است همان نشانی را برای مدت کوتاهی در یک تب پس‌زمینه باز کند. سایت همان اطلاعات یک بازدید عادی را دریافت می‌کند و عنوان به‌عنوان نام میانبر ذخیره می‌شود.</p>
+<p><strong>ذخیرهٔ صفحهٔ جاری:</strong> مجوز <code>contextMenus</code> گزینهٔ «ذخیرهٔ صفحه در Tivona» را به منوی راست‌کلیک صفحهٔ وب و آیکون Tivona اضافه می‌کند. با این گزینه یا میانبر صفحه‌کلید، نشانی و عنوان صفحه مستقیم در دسترسی سریع ذخیره می‌شود.</p>
+<p>مجوزهای <code>activeTab</code> و <code>scripting</code> نتیجهٔ ذخیره را موقتاً روی همان صفحه نمایش می‌دهند. اگر نمایش پیام روی صفحه ممکن نباشد، مجوز <code>notifications</code> امکان اعلان سیستمی را فراهم می‌کند. پیام شامل عنوان یا نشانی صفحه نیست.</p>
+<p><strong>ورود از بوکمارک‌های Chrome:</strong> وقتی این گزینه را انتخاب کنید، Tivona با مجوز اختیاری <code>bookmarks</code> پوشه‌های Chrome را می‌خواند و پوشه‌ای را که تأیید می‌کنید در Tivona کپی می‌کند. بوکمارک‌های Chrome دست‌نخورده می‌مانند.</p>
+<p><strong>آنچه Tivona انجام نمی‌دهد:</strong> داده‌ها را نمی‌فروشد و جز موارد بالا به کسی منتقل نمی‌کند، برای تبلیغ یا سنجش اعتبار به کار نمی‌برد، تاریخچهٔ مرور را نمی‌خواند و کد از راه دور اجرا نمی‌کند. استفادهٔ Tivona از اطلاعات با سیاست دادهٔ کاربر فروشگاه Chrome، از جمله الزامات «استفادهٔ محدود»، سازگار است.</p>
+<p><strong>کنترل‌ها:</strong> از تنظیمات › داده‌ها می‌توانی پشتیبان بگیری، بازیابی کنی یا همه‌چیز را بازنشانی کنی. برای تماس به <a href="mailto:sakha1370@gmail.com" dir="ltr">sakha1370@gmail.com</a> ایمیل بزن یا از بخش پشتیبانی صفحهٔ Tivona در فروشگاه Chrome استفاده کن.</p>
+</section>
+</main></body></html>
